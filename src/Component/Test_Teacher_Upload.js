@@ -1,0 +1,67 @@
+import React, { Component } from 'react';
+import '../App_Test_Teacher.css';
+import upload from '../upload-to-cloud.png';
+
+class Blobs_Teacher extends Component {
+
+  render() {
+    return (
+          <div>
+
+          <div className = "card_view_1">
+
+            <div>
+              <p className = "heading_text"> Sample Text </p>
+              <p className = "heading_description"> Sample Description </p>
+            </div>
+
+            <hr className = "line"/>
+
+            <div>
+              <div className = "img_div">
+                <img src = {upload} className = "img_size"/>
+              </div>
+
+              <div>
+                <p className = "description2"> Fast, Easy & Secure File Upload </p>
+                <p className = "description3"> Click the button below to access your local files </p>
+              </div>
+            </div>
+
+            <hr className = "line2" />
+
+            <div>
+              <a href="#" className = "upload_button_test">UPLOAD</a>
+            </div>
+
+          </div>
+
+          <div className = "card_view_2">
+
+            <div>
+              <p className = "heading_text"> Sample Text </p>
+              <p className = "heading_description"> Sample Description </p>
+            </div>
+
+            <hr className = "line"/>
+
+            <div>
+
+            <textarea placeholder="Copy Paste your content here!" className = "text_area"></textarea>
+
+            </div>
+
+            <hr className = "line2" />
+
+            <div>
+              <a href="#" className = "upload_button_test">UPLOAD</a>
+            </div>
+
+          </div>
+
+          </div>
+    );
+  }
+}
+
+export default Blobs_Teacher;

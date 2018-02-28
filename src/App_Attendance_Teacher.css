@@ -1,0 +1,21 @@
+.att_heading{
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.att_li{
+  float:left;
+  margin-left: 48px;
+  margin-right: 48px;
+  margin-top: 2px;
+}
+
+.att_li_line{
+    border-left: 1px solid gray;
+    height: 20px;
+    float:left;
+    margin-left: 48px;
+    margin-right: 48px;
+}

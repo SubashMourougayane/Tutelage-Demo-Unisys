@@ -1,0 +1,21 @@
+.lab_heading{
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.lab_li{
+  float:left;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 2px;
+}
+
+.lab_li_line{
+    border-left: 1px solid gray;
+    height: 20px;
+    float:left;
+    margin-left: 60px;
+    margin-right: 60px;
+}
